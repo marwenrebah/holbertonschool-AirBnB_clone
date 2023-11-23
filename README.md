@@ -1,5 +1,6 @@
 <img src="https://user-images.githubusercontent.com/88311316/151070609-19608294-829e-408b-b2b3-5d1f2873f1e3.png"  alt="image" style="width:1000px;"/>
-# AirBnB Clone Project - Console Phase 🏠🔄
+
+## AirBnB Clone Project - Console Phase 🏠🔄
 
 ## Overview 🌐
 
@@ -42,3 +43,7 @@ With the console phase complete, the next steps involve bringing the project to 
    - No JavaScript involved in this phase.
    - Data is not loaded from any external source.
 
+## Author
+🚀 Marwen Rebah<br>
+📧 Email: 6863@holbertonstudents.com<br>
+👻 Github: [https://github.com/marwenrebah](https://github.com/marwenrebah)<br>
