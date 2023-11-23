@@ -2,6 +2,9 @@
 
 ## AirBnB Clone Project - Console Phase 🏠🔄
 
+
+<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/f47a405fccad371100ff9665dae9b3a84a471e62.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20231123%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20231123T154459Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5649277c297bd061426c59816dadc69c267bace394e37fe4a7342824e30c4f07">
+
 ## Overview 🌐
 
 The AirBnB Clone project is designed to replicate the functionality of Airbnb, an online platform that connects people with homes to offer with those in need of temporary accommodation. The project is divided into several phases, starting with the development of a command-line interface (CLI) to manage AirBnB objects.
