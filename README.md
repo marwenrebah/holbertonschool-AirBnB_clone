@@ -3,7 +3,7 @@
 ## AirBnB Clone Project - Console Phase 🏠🔄
 
 
-<img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1667662943630/8WfEGtEnL.png?auto=compress,format&format=webp">
+<img src="https://camo.githubusercontent.com/7af0e655c34b0f4fac08af12c02b47ae017dcbc4fcaa06117b81234bb5f3c7fc/68747470733a2f2f692e696d6775722e636f6d2f6c675a6e5a727a2e706e67">
 
 ## Overview 🌐
 
