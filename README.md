@@ -32,12 +32,6 @@ The project is structured around the following core Python concepts:
 
 ## Files and Directories
 
-The following three functions are the foundation of this project:
-
-1. `Printf`: The entry point for the `printf` function, it receives the variables to format and print.
-2. `Print function`: Controls the formatting and string handling.
-3. `Select function`: Compares possible specifiers with the current pattern and returns the corresponding function.
-
 | Files       | Description                     |
 |-------------|---------------------------------|
 | models  | Edirectory will contain all classes used for the entire project. A class, called “model” in a OOP project is the representation of an object/instance.   |
