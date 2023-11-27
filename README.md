@@ -46,7 +46,8 @@ The project is structured around the following core Python concepts:
 
 ## Data diagram
 
-<img src="https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2020/9/99e1a8f2be8c09d5ce5ac321e8cf39f0917f8db5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20231127%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20231127T105930Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9f780259038956575bbbe1cf0f379766d13e3eec5f1b5cda6fe1fefa7d370e53">
+![plot](./web_static/images/DATA.jpg)
+
 
 ## Next Steps ➡️
 
