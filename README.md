@@ -1,12 +1,12 @@
-# AirBnB Clone Console Project
+# :octocat: AirBnB Clone Console Project
 
 ![plot](https://repository-images.githubusercontent.com/520549705/a67ad5ce-2374-4762-a985-4967eafb5912)
 
-## Overview ⌨️
+## ⌨️ Overview 
 
 The AirBnB Clone project replicates Airbnb's functionality, starting with a command-line interface (CLI) for managing AirBnB objects in Python.
 
-## Project Structure 🗃️
+## 🗃️ Project Structure 
 
 ```python
 # Core Python Concepts
@@ -24,7 +24,7 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 - Serialization / Deserialization
 - JSON
 ```
-## Files and Directories 📁
+## 📁 Files and Directories 
 | Files               | Description                               |
 |---------------------|-------------------------------------------|
 | models              | Directory for classes used in the project |
@@ -33,7 +33,7 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 | models/base_model.py| Base class for all models                  |
 | models/engine       | Directory for storage classes              |
 
-## Phase One 📝
+## 📝 Phase One 
 
 - Create a parent class (BaseModel) for instance initialization, serialization, and deserialization.
 - Establish a serialization/deserialization flow: Instance <-> Dictionary <-> JSON string <-> File
@@ -44,7 +44,7 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 - Manage objects via a console/command interpreter
 - Store and persist objects to files (JSON files)
 
-## Description of the Command Interpreter ⌨️
+## ⌨️ Description of the Command Interpreter 
 
 Commands | Description
 ---------|-------------
@@ -62,7 +62,7 @@ update <class> <id> <attribute name> "<attribute value>" | Updates an object wit
 <class>.update(<ID>, <attribute name>, <attribute value>) | Same as update <class> <ID> <attribute name> <attribute value>
 <class>.update(<ID>, <dictionary representation>) | Updates an object based on a dictionary representation
 
-## General Execution 🛠️
+## 🛠️ General Execution 
 
 Interactive mode:
 
@@ -76,10 +76,10 @@ Non-interactive mode:
 $ echo "help" | ./console.py
 ```
 
-## Next Steps ➡️
+## ➡️ Next Steps 
 The next steps involve developing a front-end for user interaction, starting with HTML prototyping.
 
-## Phases of the Project 🚀
+## 🚀 Phases of the Project 
 
 1 - Console Phase:
 
@@ -94,7 +94,7 @@ Added fake content for visual representation.
 No JavaScript involved in this phase.
 Data is not loaded from any external source.
 
-## Author
+## 👥 Author
 🚀 Marwen Rebah<br>
 📧 Email: 6863@holbertonstudents.com<br>
 👻 Github: https://github.com/marwenrebah
