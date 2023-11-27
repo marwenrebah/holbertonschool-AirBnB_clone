@@ -1,6 +1,6 @@
 # AirBnB Clone Console Project 💻
 
-![plot](./web_static/images/README.jpg)
+![plot](./web_static/images/logo.png)
 
 ## Overview ⌨️
 
