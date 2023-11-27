@@ -1,12 +1,12 @@
-# AirBnB Clone Console Project 🏠🔄
+# AirBnB Clone Console Project 💻
 
 ![plot](./web_static/images/README.jpg)
 
-## Overview 🌐
+## Overview ⌨️
 
 The AirBnB Clone project replicates Airbnb's functionality, starting with a command-line interface (CLI) for managing AirBnB objects in Python.
 
-## Project Structure 📚
+## Project Structure 🗃️
 
 ```python
 # Core Python Concepts
@@ -24,7 +24,7 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 - Serialization / Deserialization
 - JSON
 ```
-## Files and Directories
+## Files and Directories 📁
 | Files               | Description                               |
 |---------------------|-------------------------------------------|
 | models              | Directory for classes used in the project |
@@ -33,7 +33,7 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 | models/base_model.py| Base class for all models                  |
 | models/engine       | Directory for storage classes              |
 
-## Phase One
+## Phase One 1️
 
 - Create a parent class (BaseModel) for instance initialization, serialization, and deserialization.
 - Establish a serialization/deserialization flow: Instance <-> Dictionary <-> JSON string <-> File
@@ -44,16 +44,16 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 - Manage objects via a console/command interpreter
 - Store and persist objects to files (JSON files)
 
-## Description of the Command Interpreter
+## Description of the Command Interpreter ⌨️
 
 Commands | Description
 ---------|-------------
 quit, Ctrl+D | Quits the console
-help or help <command> | Displays all commands or instructions for a specific command
+help <command> | Displays all commands or instructions for a specific command
 create <class> | Creates an object, saves it to a JSON file, and prints the object's ID
 show <class> <ID> | Shows the string representation of an object
 destroy <class> <ID> | Deletes an object
-all or all <class> | Prints string representations of all objects or of a specific class
+all <class> | Prints string representations of all objects or of a specific class
 update <class> <id> <attribute name> "<attribute value>" | Updates an object with a certain attribute
 <class>.all() | Same as all <class>
 <class>.count() | Retrieves the number of objects of a certain class
