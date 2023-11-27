@@ -1,4 +1,4 @@
-![Screenshot](README.png)
+![plot](./web_static/images/README.jpg)
 
 ## AirBnB Clone Project - Console Phase 🏠🔄
 
