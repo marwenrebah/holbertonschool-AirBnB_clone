@@ -33,7 +33,7 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 | models/base_model.py| Base class for all models                  |
 | models/engine       | Directory for storage classes              |
 
-## Phase One 1️
+## Phase One 📝
 
 - Create a parent class (BaseModel) for instance initialization, serialization, and deserialization.
 - Establish a serialization/deserialization flow: Instance <-> Dictionary <-> JSON string <-> File
@@ -62,7 +62,7 @@ update <class> <id> <attribute name> "<attribute value>" | Updates an object wit
 <class>.update(<ID>, <attribute name>, <attribute value>) | Same as update <class> <ID> <attribute name> <attribute value>
 <class>.update(<ID>, <dictionary representation>) | Updates an object based on a dictionary representation
 
-## General Execution
+## General Execution 🛠️
 
 Interactive mode:
 
@@ -75,8 +75,6 @@ Non-interactive mode:
 ```
 $ echo "help" | ./console.py
 ```
-
-
 
 ## Next Steps ➡️
 The next steps involve developing a front-end for user interaction, starting with HTML prototyping.
