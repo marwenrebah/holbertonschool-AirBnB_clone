@@ -139,6 +139,11 @@ Data is not loaded from any external source.
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="c" width="40" height="40"/> 
   </a>
 </p>
+<p align="center">
+  <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png" alt="c" width="40" height="40"/> 
+  </a>
+</p>
 
 ## 👥 Author
 🚀 Marwen Rebah<br>
