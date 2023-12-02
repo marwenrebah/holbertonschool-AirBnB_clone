@@ -132,6 +132,14 @@ Added fake content for visual representation.
 No JavaScript involved in this phase.
 Data is not loaded from any external source.
 
+## :toolbox: Languages and Tools
+
+<p align="center">
+  <a href="https://www.python.org/" target="_blank" rel="noreferrer">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="c" width="40" height="40"/> 
+  </a>
+</p>
+
 ## 👥 Author
 🚀 Marwen Rebah<br>
 📧 Email: 6863@holbertonstudents.com<br>
