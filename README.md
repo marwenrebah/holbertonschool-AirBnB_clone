@@ -5,6 +5,7 @@
 ## ⌨️ Overview 
 
 The AirBnB Clone project replicates Airbnb's functionality, starting with a command-line interface (CLI) for managing AirBnB objects in Python.
+Our mission: crafting an Airbnb replica—a property rental platform. Guided by a robust development tool (CLI), our website merges fixed and dynamic features. With a robust database, we store property and user data. The API ensures seamless front-to-back communication, aspiring to mirror Airbnb's user-friendly excellence.
 
 ## 🗃️ Project Structure 
 
@@ -44,6 +45,15 @@ The AirBnB Clone project replicates Airbnb's functionality, starting with a comm
 - Manage objects via a console/command interpreter
 - Store and persist objects to files (JSON files)
 
+## 🔎 What’s a command interpreter?
+Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
+
+- Create a new object (ex: a new User or a new Place)
+- Retrieve an object from a file, a database etc…
+- Do operations on objects (count, compute stats, etc…)
+- Update attributes of an object
+- Destroy an object
+
 ## ⌨️ Description of the Command Interpreter 
 
 Commands | Description
@@ -56,7 +66,6 @@ destroy <class> <ID> | Deletes an object
 all <class> | Prints string representations of all objects or of a specific class
 update <class> <id> <attribute name> "<attribute value>" | Updates an object with a certain attribute
 <class>.all() | Same as all <class>
-<class>.count() | Retrieves the number of objects of a certain class
 <class>.show(<ID>) | Same as show <class> <ID>
 <class>.destroy(<ID>) | Same as destroy <class> <ID>
 <class>.update(<ID>, <attribute name>, <attribute value>) | Same as update <class> <ID> <attribute name> <attribute value>
