@@ -15,7 +15,14 @@ import cmd
 class HBNBCommand(cmd.Cmd):
     """class HBNB for command line"""
     prompt = "(hbnb) "
-    allowed_classes = ['BaseModel', 'User', 'Place', 'State', 'City', 'Amenity', 'Review']
+    allowed_classes = [
+        'BaseModel',
+        'User',
+        'Place',
+        'State',
+        'City',
+        'Amenity',
+        'Review']
 
     def do_quit(self, arg):
         """quit command to exit console"""
@@ -73,7 +80,9 @@ class HBNBCommand(cmd.Cmd):
     def do_all(self, arg):
         """Display all instances based on class name"""
         arg_list = parse(arg)
-        if len(arg_list) > 0 and arg_list[0] not in HBNBCommand.allowed_classes:
+        if len(
+            arg_list) > 0 and arg_list[0] \
+                not in HBNBCommand.allowed_classes:
             print("** class doesn't exist **")
         else:
             all_objs = storage.all()

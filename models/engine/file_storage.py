@@ -10,6 +10,7 @@ from models.place import Place
 from models.review import Review
 from models.state import State
 
+
 class FileStorage:
     """serializes instances to a JSON file and deserializes JSON
     file to instances """
@@ -28,7 +29,8 @@ class FileStorage:
 
     def save(self):
         """Saves storage dictionary to file"""
-        temp = {key: val.to_dict() for key, val in FileStorage.__objects.items()}
+        temp = {key: val.to_dict()
+                for key, val in FileStorage.__objects.items()}
         with open(FileStorage.__file_path, 'w') as f:
             json.dump(temp, f)
 
