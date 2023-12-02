@@ -4,7 +4,7 @@
 
 ## ⌨️ Overview 
 
-The AirBnB Clone project replicates Airbnb's functionality, starting with a command-line interface (CLI) for managing AirBnB objects in Python.
+The AirBnB Clone project replicates Airbnb's functionality, starting with a command-line interface (CLI) for managing AirBnB objects in Python.<br>
 Our mission: crafting an Airbnb replica—a property rental platform. Guided by a robust development tool (CLI), our website merges fixed and dynamic features. With a robust database, we store property and user data. The API ensures seamless front-to-back communication, aspiring to mirror Airbnb's user-friendly excellence.
 
 ## 🗃️ Project Structure 
