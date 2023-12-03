@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""objects to a file"""
+"""objects to a file """
 
 import json
 from models.base_model import BaseModel
