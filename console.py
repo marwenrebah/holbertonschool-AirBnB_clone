@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""contains the entry point of the command interpreter"""
+"""contains the entry point of the command interpreter """
 from models.base_model import BaseModel
 from models.engine.file_storage import FileStorage
 from models import storage
