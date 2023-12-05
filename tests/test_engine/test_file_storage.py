@@ -39,21 +39,12 @@ class TestFileStorage(unittest.TestCase):
 
     def test_reload_file_found(self):
         """Test reload when the file does exist"""
-        data = {
-            'BaseModel.test_id': {
-                'id': 'test_id',
-                'attribute1': 'value1',
-                'attribute2': 'value2'}}
+        data = {'BaseModel.test_id': {'id': 'test_id', 'attribute1': 'value1', 'attribute2': 'value2'}}
         with open(FileStorage._FileStorage__file_path, 'w') as f:
             json.dump(data, f)
         self.file_storage.reload()
-        expected_obj = BaseModel(
-            id='test_id',
-            attribute1='value1',
-            attribute2='value2')
-        self.assertEqual(self.file_storage.all(),
-                         {f'BaseModel.{expected_obj.id}': expected_obj})
-
+        expected_obj = BaseModel(id='test_id', attribute1='value1', attribute2='value2')
+        self.assertEqual(self.file_storage.all(), {f'BaseModel.{expected_obj.id}': expected_obj})
 
 if __name__ == '__main__':
     unittest.main()

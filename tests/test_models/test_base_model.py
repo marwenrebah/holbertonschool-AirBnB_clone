@@ -5,14 +5,13 @@ from datetime import datetime
 from models.base_model import BaseModel
 import time
 
-
 class TestBaseModel(unittest.TestCase):
     def __init__(self, *args, **kwargs):
         """Initialize test class"""
         super().__init__(*args, **kwargs)
         self.name = 'BaseModel'
         self.value = BaseModel
-
+    
     def setUp(self):
         pass
 
@@ -29,16 +28,8 @@ class TestBaseModel(unittest.TestCase):
         obj = BaseModel(**data)
 
         self.assertEqual(obj.id, data["id"])
-        self.assertEqual(
-            obj.created_at,
-            datetime.strptime(
-                data["created_at"],
-                '%Y-%m-%dT%H:%M:%S.%f'))
-        self.assertEqual(
-            obj.updated_at,
-            datetime.strptime(
-                data["updated_at"],
-                '%Y-%m-%dT%H:%M:%S.%f'))
+        self.assertEqual(obj.created_at, datetime.strptime(data["created_at"], '%Y-%m-%dT%H:%M:%S.%f'))
+        self.assertEqual(obj.updated_at, datetime.strptime(data["updated_at"], '%Y-%m-%dT%H:%M:%S.%f'))
         self.assertEqual(obj.custom_attr, data["custom_attr"])
 
     def test_constructor_without_kwargs(self):
@@ -53,6 +44,7 @@ class TestBaseModel(unittest.TestCase):
         i = self.value()
         self.assertEqual(str(i), '[{}] ({}) {}'.format(self.name, i.id,
                          i.__dict__))
+
 
     def test_save_method(self):
         obj = BaseModel()
@@ -69,7 +61,6 @@ class TestBaseModel(unittest.TestCase):
         self.assertIn("__class__", obj_dict)
         self.assertIn("created_at", obj_dict)
         self.assertIn("updated_at", obj_dict)
-
 
 if __name__ == '__main__':
     unittest.main()
